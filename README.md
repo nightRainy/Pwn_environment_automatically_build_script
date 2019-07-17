@@ -10,6 +10,6 @@ You can change the contents of the files according to your needs.
 * [libc6_dev_i386](https://pkgs.org/download/libc6-dev-i386）
 * [pwntools](https://github.com/Gallopsled/pwntools.git)
 * [pwndbg](https://github.com/pwndbg/pwndbg)
-* [oh_my_zsh~](https://ohmyz.sh/）
+* [oh_my_zsh](https://ohmyz.sh/）
 * [one_gadget](https://github.com/david942j/one_gadget.git)
 * [roputils](https://github.com/inaz2/roputils.git)
