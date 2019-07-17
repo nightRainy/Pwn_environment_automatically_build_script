@@ -7,7 +7,7 @@ You can change the contents of the files according to your needs.
 ## It will automatically install :
 * [gcc](https://gcc.gnu.org/)
 * [gdb](https://www.gnu.org/software/gdb/)
-* [libc6](https://pkgs.org/download/libc6-dev-i386)
+* [libc6_dev_i386](https://pkgs.org/download/libc6-dev-i386)
 * [pwntools](https://github.com/Gallopsled/pwntools.git/)
 * [pwndbg](https://github.com/pwndbg/pwndbg/)
 * [oh_My_zsh](https://ohmyz.sh/)
