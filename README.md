@@ -1,4 +1,4 @@
-# -Pwn-environment-automatically-build-script
+# Pwn-environment-automatically-build-script
 
 > This shell script is used to automatically build the pwn environment
 
