@@ -33,3 +33,10 @@ chmod +x centos7.sh
 #You need to edit this script to change the username for the docker
 ./centos7.sh
 ```
+
+### ubuntu
+#### usage
+```
+chmod +x ubuntu.sh
+./ubuntu.sh
+```
