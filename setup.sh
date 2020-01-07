@@ -10,7 +10,7 @@ if [ `whoami` = "root" ];then
 	apt-get install wget -y
 	apt-get install gem -y
 	apt-get install ruby -y
-	apt-get install tmux
+	apt-get install tmux -y
 	apt-get install libc6-dev-i386 -y
 	gem install one_gadget
 	pip install pwntools
