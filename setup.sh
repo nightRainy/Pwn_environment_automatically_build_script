@@ -10,6 +10,7 @@ if [ `whoami` = "root" ];then
 	apt-get install wget -y
 	apt-get install gem -y
 	apt-get install ruby -y
+	apt-get install tmux
 	apt-get install libc6-dev-i386 -y
 	gem install one_gadget
 	pip install pwntools
@@ -33,6 +34,7 @@ else
 	sudo apt-get install wget -y
 	sudo apt-get install gem -y
 	sudo apt-get install ruby -y
+	sudo apt-get install tmux -y
 	sudo apt-get install libc6-dev-i386 -y
 	sudo gem install one_gadget
 	pip install pwntools
