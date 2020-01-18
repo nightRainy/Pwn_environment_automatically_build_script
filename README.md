@@ -22,6 +22,7 @@ chmod +x setup.sh
 * [one_gadget](https://github.com/david942j/one_gadget.git)
 * [roputils](https://github.com/inaz2/roputils.git)
 * [tmux](https://github.com/tmux/tmux)
+* [nc]()
 
 ## docker
 If you want to install docker in the centos7, u can use 'centos7.sh' to build one,else u can us ubuntu.sh to build docker in the ubuntu
