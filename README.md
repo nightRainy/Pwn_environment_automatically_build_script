@@ -18,7 +18,7 @@ chmod +x setup.sh
 * [libc6_dev_i386](https://pkgs.org/download/libc6-dev-i386)
 * [pwntools](https://github.com/Gallopsled/pwntools.git/)
 * [pwndbg](https://github.com/pwndbg/pwndbg/)
-* [LibcSearcher]https://github.com/lieanu/LibcSearcher
+* [LibcSearcher](https://github.com/lieanu/LibcSearcher)
 * [one_gadget](https://github.com/david942j/one_gadget.git)
 * [roputils](https://github.com/inaz2/roputils.git)
 * [tmux](https://github.com/tmux/tmux)
