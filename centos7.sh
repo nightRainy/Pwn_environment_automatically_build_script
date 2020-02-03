@@ -35,15 +35,15 @@ else
 	sudo systemctl start docker
 fi
 
-echo "-----------------下载并在本地启动ubuntu的docker------------------"
+#echo "-----------------下载并在本地启动ubuntu的docker------------------"
 #下载ubuntu
-docker pull ubuntu
-docker pull ubuntu:16.04
-docker pull ubuntu:19.04
+#docker pull ubuntu
+#docker pull ubuntu:16.04
+#docker pull ubuntu:19.04
 #查看是否下载成功
-docker images ubuntu
+#docker images ubuntu
 #运行ubuntu16.04(开启特权模式用于gdb调试)
-docker run --privileged --rm -it ubuntu:16.04
+#docker run --privileged --rm -it ubuntu:16.04
 
 
 
