@@ -17,7 +17,7 @@ if [ `whoami` = "root" ];then
 	gem install one_gadget
 	pip install pwntools
 	cd
-	git clone https://github.com/pwndbg/pwndbg.git
+	git clone https://github.com/nightRainy/pwndbg.git
 	cd pwndbg 
 	./setup.sh
 	cd 
@@ -44,7 +44,7 @@ else
 	sudo gem install one_gadget
 	pip install pwntools
 	cd
-	git clone https://github.com/pwndbg/pwndbg.git
+	git clone https://github.com/nightRainy/pwndbg.git
 	cd pwndbg 
 	./setup.sh
 	cd 
