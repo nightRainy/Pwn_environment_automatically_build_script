@@ -12,8 +12,11 @@ if [ `whoami` = "root" ];then
 	apt-get install tmux -y
 	apt-get install libc6-dev-i386 -y
 	apt-get -y install netcat-traditional
+	apt-get install ruby-dev -y
+	gem install seccomp-tools
 	gem install one_gadget
 	pip install pwntools
+	cd
 	git clone https://github.com/pwndbg/pwndbg.git
 	cd pwndbg 
 	./setup.sh
@@ -36,8 +39,11 @@ else
 	sudo apt-get install tmux -y
 	sudo apt-get -y install netcat-traditional
 	sudo apt-get install libc6-dev-i386 -y
+	sudo apt-get install ruby-dev -y
+	sudo gem install seccomp-tools
 	sudo gem install one_gadget
 	pip install pwntools
+	cd
 	git clone https://github.com/pwndbg/pwndbg.git
 	cd pwndbg 
 	./setup.sh
