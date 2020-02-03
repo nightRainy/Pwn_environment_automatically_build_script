@@ -23,6 +23,7 @@ chmod +x setup.sh
 * [roputils](https://github.com/inaz2/roputils.git)
 * [tmux](https://github.com/tmux/tmux)
 * [nc]()
+* [seccomp-tools](https://github.com/david942j/seccomp-tools)
 
 ## docker
 If you want to install docker in the centos7, u can use 'centos7.sh' to build one,else u can us ubuntu.sh to build docker in the ubuntu
