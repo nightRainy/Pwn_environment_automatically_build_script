@@ -1,4 +1,8 @@
 #!/bin/sh
+# auto install the pwn environment
+# @author:知世
+# @category:environment build
+
 if [ `whoami` = "root" ];then
 	apt-get update -y
 	apt-get install python -y
