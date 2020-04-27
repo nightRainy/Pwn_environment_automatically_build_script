@@ -4,6 +4,7 @@
 # @category:environment build
 
 if [ `whoami` = "root" ];then
+	dpkg --add-architecture i386
 	apt-get update -y
 	apt-get install python -y
 	apt-get install python-pip -y
@@ -15,6 +16,8 @@ if [ `whoami` = "root" ];then
 	apt-get install ruby -y
 	apt-get install tmux -y
 	apt-get install libc6-dev-i386 -y
+	apt-get install libc6-dbg -y
+	apt-get install libc6-dbg:i386
 	apt-get -y install netcat-traditional
 	apt-get install ruby-dev -y
 	gem install seccomp-tools
@@ -31,6 +34,7 @@ if [ `whoami` = "root" ];then
 	cd LibcSearcher
 	python setup.py develop
 else
+	sudo dpkg --add-architecture i386
 	sudo apt-get update -y
 	sudo apt-get install python -y
 	sudo apt-get install python-pip -y
@@ -43,6 +47,8 @@ else
 	sudo apt-get install tmux -y
 	sudo apt-get -y install netcat-traditional
 	sudo apt-get install libc6-dev-i386 -y
+	apt-get install libc6-dbg -y
+	apt-get install libc6-dbg:i386 -y
 	sudo apt-get install ruby-dev -y
 	sudo gem install seccomp-tools
 	sudo gem install one_gadget
