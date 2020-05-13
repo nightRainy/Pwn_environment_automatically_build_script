@@ -1,6 +1,6 @@
 # Pwn-environment-automatically-build-script
 
-> These shell script are used to automatically build the pwn environment, and help u to build a docker
+> These shell script are used to automatically build the pwn environment, and help u to build a docker!By yhe way,this script is just install the basic tools,so ... make it better by youself!!
 
 You can change the contents of the files according to your needs.
 
@@ -8,7 +8,7 @@ You can change the contents of the files according to your needs.
 
 ## ubuntu20.04
 
-if u wann use it in ubuntu20.04,u need
+if u wann use it in ubuntu20.04,and want to install the pip2 , u can:
 
 ```
 sudo add-apt-repository universe
@@ -47,9 +47,10 @@ chmod +x setup.sh
 There are my pwn dockers,u can download them to use 
 
 ```
-docker pull zhihsi/dockerpwn:2.29
 docker pull zhihsi/dockerpwn:2.23
 docker pull zhihsi/dockerpwn:2.27
+docker pull zhihsi/dockerpwn:2.29
+docker pull zhihsi/dockerpwn:2.31
 ```
 
 Usage:
