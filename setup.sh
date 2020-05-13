@@ -17,7 +17,9 @@ if [ `whoami` = "root" ];then
 	apt-get install tmux -y
 	apt-get install libc6-dev-i386 -y
 	apt-get install libc6-dbg -y
-	apt-get install libc6-dbg:i386
+	apt-get install libc6-dbg:i386 -y
+	apt-get install python-setuptools -y
+	apt-get install make -y
 	apt-get -y install netcat-traditional
 	apt-get install ruby-dev -y
 	gem install seccomp-tools
@@ -50,6 +52,8 @@ else
 	apt-get install libc6-dbg -y
 	apt-get install libc6-dbg:i386 -y
 	sudo apt-get install ruby-dev -y
+	sudo apt-get install python-setuptools -y
+	sudo apt-get install make -y
 	sudo gem install seccomp-tools
 	sudo gem install one_gadget
 	pip install pwntools
