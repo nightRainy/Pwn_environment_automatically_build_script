@@ -6,6 +6,20 @@ You can change the contents of the files according to your needs.
 
 **Note my pwndbg has been changed,the original version is here:[pwndbg](https://github.com/pwndbg/pwndbg)**
 
+## ubuntu20.04
+
+if u wann use it in ubuntu20.04,u need
+
+```
+sudo add-apt-repository universe
+sudo apt update 
+sudo apt install python2
+curl https://bootstrap.pypa.io/get-pip.py --output get-pip.py
+sudo python get-pip.py
+```
+
+and edit the pwndbg's setup.sh,remove the python-pip:) enjoy it
+
 ## pwn environment
 
 ### usage
