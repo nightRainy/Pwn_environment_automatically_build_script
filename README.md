@@ -1,6 +1,7 @@
 # Pwn-environment-automatically-build-script
 
-> These shell script are used to automatically build the pwn environment, and help u to build a docker!By yhe way,this script is just install the basic tools,so ... make it better by youself!!
+> These shell script are used to automatically build the pwn environment, and help u to build a docker!
+> By the way,these script is just install the basic tools,so ... make it better by youself!!
 
 You can change the contents of the files according to your needs.
 
