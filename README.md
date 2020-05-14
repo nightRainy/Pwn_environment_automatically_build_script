@@ -21,6 +21,8 @@ sudo python get-pip.py
 
 and edit the pwndbg's setup.sh,remove the python-pip:) enjoy it
 
+By the way, glibc 2.31's tcache has been changed....
+
 ## pwn environment
 
 ### usage
