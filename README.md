@@ -56,6 +56,13 @@ docker pull zhihsi/dockerpwn:2.29
 docker pull zhihsi/dockerpwn:2.31
 ```
 
+Or u can get it with aliyun such as:
+
+```
+docker pull registry.cn-shenzhen.aliyuncs.com/zhishi/dockerpwn:[version]
+```
+
+
 Usage:
 
 ```
